@@ -10,5 +10,6 @@ services:
       - "5433:5432"
     volumes:
       - db-data:/var/lib/posgresql/data
+
 volumes:
   db-data:
